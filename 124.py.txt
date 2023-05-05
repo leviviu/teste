@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro num, ced10, ced20, ced50
+    inteiro resto
+
+    escreva("Digite um valor Inteiro: ")
+    leia(num)
+
+    ced50= num/ 50
+
+    ced20= num / 20
+  
+    ced10= num / 10
+
+   escreva("Cédulas de 50:", ced50,"\n")
+   escreva("Cédulas de 20:", ced20,"\n")
+   escreva("Cédulas de 10:", ced10,"\n")
+   
+  }
+}
